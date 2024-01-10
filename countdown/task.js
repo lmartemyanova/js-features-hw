@@ -1,12 +1,3 @@
-// const time = document.getElementById('timer')
-
-// intervalId = setInterval(() => {
-//     time.textContent = Number(time.textContent) - 1
-//   }, 1000)
-  
-// setTimeout(() => {clearInterval(intervalId), alert('Вы победили в конкурсе!')}, 59000)
-  
-
 const timer = document.getElementById('timer');
 const time = "00:00:";
 timer.textContent = time + timer.textContent;
